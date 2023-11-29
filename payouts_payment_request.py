@@ -15,9 +15,9 @@ def generate_hmac_sha256_signature(payload, secret_key):
 def main():
     api_url = "https://sandbox.dlocal.com/api_curl/cashout_api/request_cashout"
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-    login = "userco"
-    trans_key = "passco"
-    secret_key = "secretco"
+    login = "x"
+    trans_key = "x"
+    secret_key = "x"
 
     # Generate a random external_id
     external_id = str(uuid.uuid4())
